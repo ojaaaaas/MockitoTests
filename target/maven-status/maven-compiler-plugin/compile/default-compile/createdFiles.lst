@@ -1,0 +1,7 @@
+com/ojas/mockito/fake_doubles/dummy/BookService.class
+com/ojas/mockito/fake_doubles/dummy/BookRepository.class
+com/ojas/mockito/test_doubles/fake/BookService.class
+com/ojas/mockito/test_doubles/fake/Book.class
+com/ojas/mockito/fake_doubles/dummy/EmailService.class
+com/ojas/mockito/test_doubles/fake/BookRepository.class
+com/ojas/mockito/fake_doubles/dummy/Book.class

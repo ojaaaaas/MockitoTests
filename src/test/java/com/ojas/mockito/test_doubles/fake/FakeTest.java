@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FakeTest {
 
     @Test
-    public void testDummy(){
+    public void testDummy() {
         BookRepository bookRepository = new FakeBookRepository();
         EmailService emailService = new DummyEmailService();
         BookService bookService = new BookService(bookRepository, emailService);
