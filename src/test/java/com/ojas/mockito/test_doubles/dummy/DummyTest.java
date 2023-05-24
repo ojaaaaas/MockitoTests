@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DummyTest {
     @Test
-    public void demoDummy(){
+    public void demoDummy() {
         BookRepository bookRepository = new FakeBookRepository();
         EmailService emailService = new DummyEmailService();
 

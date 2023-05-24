@@ -9,7 +9,7 @@ public class BookService {
     public BookService(BookRepository bookRepository, EmailService emailService) {
         this.bookRepository = bookRepository;
     }
-    public void addBook(Book book){
+    public void addBook(Book book) {
         bookRepository.save(book);
     }
     public int findNumberOfBooks(){
